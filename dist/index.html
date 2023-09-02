@@ -20,15 +20,18 @@
       <div
         class="container mx-auto flex flex-wrap justify-between items-center px-4"
       >
-        <div class="flex justify-between">
+        <div class="flex justify-between md:w-full sm:w-full ">
           <a class="font-bold text-lg mr-4 py-2 text-white">
             THE NOVEMBER ROOM
           </a>
+          <button class="cursor-pointer p-3 lg:hidden">
+            <i class="text-white fas fa-bars md:scale-125 sm:scale-125"></i>
+          </button>
         </div>
 
         <!-- icons -->
         <div>
-          <ul class="flex scale-125">
+          <ul class="lg:flex scale-125 md:hidden sm:hidden hidden">
             <!-- icon-1 -->
             <li class="text-gray-800">
               <a class="px-3 py-4"
@@ -88,16 +91,16 @@
     </div>
 
     <!-- about our gym -->
-    <section id="about" class="bg-black text-white px-16 container">
-        <div class="flex flex-wrap items-center justify-center py-20">
-          <div class="w-4/12 mr-auto" data-aos="flip-left">
+    <section id="about" class="bg-black text-white md:p-10">
+        <div class="flex flex-wrap items-center justify-center py-20 sm:flex-wrap md:flex-nowrap lg:flex-nowrap">
+          <div class="mr-auto" data-aos="flip-left">
             <img
               src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-              class="rounded-lg mr-7 ml-7"
+              class="rounded-lg mr-7 ml-7 md:m-auto  md:ml-5 lg:ml-7"
             />
           </div>
   
-          <div class="w-5/12 pt-10" data-aos="fade-left">
+          <div class="w-5/12 pt-10 md:4/12 sm:w-fit sm:px-7 lg:ml-10 lg:w-5/12" data-aos="fade-left">
             <p class="text-orange-500">About our gym</p>
             <h3 class="text-4xl">SAFE BODY BUILDING</h3>
             <p class="mt-4 text-lg">
